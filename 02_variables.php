@@ -3,6 +3,8 @@
 // What is a variable
 $name = 'Zura';
 $age = 28;
+$isMale = true;
+$height = 1.85;
 
 // Variable types
 
