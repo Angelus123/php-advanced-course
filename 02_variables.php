@@ -5,6 +5,7 @@ $name = 'Zura';
 $age = 28;
 $isMale = true;
 $height = 1.85;
+$salary = null;
 
 // Variable types
 
