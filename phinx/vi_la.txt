@@ -3,8 +3,10 @@ composer search phinx
 //========install phinx
 composer require robmorgan/phinx
 //========run phinx
+
 php vendor/bin/phinx
 //=========create shortcut run
+
 vim phinx
     #!/bin/bash
     php vendor/bin/phinx $1 $2 $3
@@ -13,6 +15,8 @@ chmod +x phinx
 ./phinx init
 mkdir -p db/seeds
 mkdir -p db/migrations
+
+//==========Create migrations
 ./phinx create Init
 ./phinx migrate
 ./phinx rollback
